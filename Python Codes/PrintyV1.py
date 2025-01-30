@@ -21,19 +21,19 @@ def Printy_Math(Number1,Number2,m1):
         print(Number1+Number2)
     if m1 == "-":
         if Show == True:
-            print("Miness:")
+            print("Minus:")
         print(Number1-Number2)
     if m1 == "/":
         if Show == True:
-            print("Divaded:")
+            print("Divided:")
         print(Number1/Number2)
     if m1 == "//":
         if Show == True:
-            print("Full Num:")
+            print("Divided Full Num:")
         print(Number1//Number2)
     if m1 == "%":
         if Show == True:
-            print("Modolo:")
+            print("Modulo:")
         print(Number1%Number2)
 
 def Printy():
