@@ -41,7 +41,7 @@ def Printy():
     print(Fore.GREEN + "-----------------------------------")
     print(Fore.RED + "Printy Commands:")
     print(Fore.YELLOW + "- Printy()",Fore.CYAN + "[Shows A List Of All The Commands]")
-    print(Fore.YELLOW + "- Printy_Math(Number1,Number2,m1",Fore.CYAN + "[Enter 2 numbers and Change the m1 to the Thing you want to do]")
+    print(Fore.YELLOW + "- Printy_Math(Number1,Number2,m1)",Fore.CYAN + "[Enter 2 numbers and Change the m1 to the Thing you want to do]")
     print(Fore.YELLOW + "- Printy_Color(Text,color)",Fore.CYAN + "[Print With Colors]")
     print(Fore.YELLOW + "- Printy_Str(Text)",Fore.CYAN + "[Print In String (Normal Print)]")
     print(Fore.RED + "Comming Soon...")
