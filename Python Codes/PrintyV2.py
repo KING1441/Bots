@@ -88,4 +88,6 @@ class PrintyTools:
 #Code
 PrintyTools.Printy_AllColors(True)
 
+#from main import PrintyTools
+
     
