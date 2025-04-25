@@ -46,6 +46,7 @@ async def say(ctx, *, message: str):
 
 print(f"Bot Token ID: {TOKEN}")
 bot.run(TOKEN)
+
 ---------------------------------------------------
 
 15) To get your bot token, go back to https://discord.com/developers/applications
