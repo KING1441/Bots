@@ -50,6 +50,7 @@ bot.run(TOKEN)
 ```
 ---------------------------------------------------
 **Note:** If the code doesn't work, copy and paste it into ChatGPT to help fix any errors.
+**Also You May need to install python or install discord so you can use pip install discord**
 
 15) To get your bot token, go back to https://discord.com/developers/applications
 16) Click on your application
