@@ -12,7 +12,14 @@
 11) Make a folder on your desktop and give it a name.
 12) Open the folder in VS Code
 13) Create a Python file (call it whatever you want, just make sure it ends with .py
-14) Copy and paste this basic bot code:
+14) Copy and paste the basic bot code.
+**Note:** If the code doesn't work, copy and paste it into ChatGPT to help fix any errors.
+
+15) To get your bot token, go back to https://discord.com/developers/applications
+16) Click on your application
+17) Go to the "Bot" tab
+18) Click "Reset Token", enter your password
+19) Copy and paste the token into your code where it says 'Your Bot Token'
 
 ---------------------------------------------------
 Basic Code:
@@ -49,12 +56,3 @@ print(f"Bot Token ID: {TOKEN}")
 bot.run(TOKEN)
 
 ---------------------------------------------------
-**Note:** If the code doesn't work, copy and paste it into ChatGPT to help fix any errors.
-
-15) To get your bot token, go back to https://discord.com/developers/applications
-16) Click on your application
-17) Go to the "Bot" tab
-18) Click "Reset Token", enter your password
-19) Copy and paste the token into your code where it says 'Your Bot Token'
-
-
