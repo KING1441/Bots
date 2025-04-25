@@ -17,7 +17,7 @@
 ---------------------------------------------------
 Basic Code:
 ---------------------------------------------------
-import discord 
+```import discord 
 from discord.ext import commands 
 
 intents = discord.Intents.default() 
@@ -45,7 +45,7 @@ async def say(ctx, *, message: str):
         await ctx.send("There was an error processing your message.")
 
 print(f"Bot Token ID: {TOKEN}")
-bot.run(TOKEN)
+bot.run(TOKEN)```
 
 ---------------------------------------------------
 **Note if the code not working copy the code and past it in chat gpt to fix.
