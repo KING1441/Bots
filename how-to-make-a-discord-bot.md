@@ -48,6 +48,7 @@ print(f"Bot Token ID: {TOKEN}")
 bot.run(TOKEN)
 
 ---------------------------------------------------
+**Note if the code not working copy the code and past it in chat gpt to fix.
 
 15) To get your bot token, go back to https://discord.com/developers/applications
 16) Click on your application
