@@ -36,7 +36,7 @@ async def on_member_join(member):
     if channel:
         await channel.send(f"Welcome {member.mention}!")
 
-@bot.command(name="say")\n
+@bot.command(name="say")
 async def say(ctx, *, message: str):
     try:
         await ctx.send(message)
@@ -45,7 +45,7 @@ async def say(ctx, *, message: str):
         await ctx.send("There was an error processing your message.")
 
 print(f"Bot Token ID: {TOKEN}")
-bot.run(TOKEN)``````
+bot.run(TOKEN)```
 
 ---------------------------------------------------
 **Note:** If the code doesn't work, copy and paste it into ChatGPT to help fix any errors.
