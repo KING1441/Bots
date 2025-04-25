@@ -4,9 +4,9 @@ import json
 import time
 from discord.ext import commands 
 
-image_path = 'C:\\Users\\talm\\Desktop\\vs Code (Projects)\\Game With Xzi1Bi2t\\Money.json'
-DATA_FILE = 'C:\\Users\\talm\\Desktop\\vs Code (Projects)\\Game With Xzi1Bi2t\\Money.json'
-token_path = "C:\\Users\\talm\\Desktop\\vs Code (Projects)\\DiscordBot\\Discord_Token.json"
+image_path = 'C:\\Users\\user\\Desktop\\vs Code (Projects)\\Game With Xzi1Bi2t\\Money.json'
+DATA_FILE = 'C:\\Users\\user\\Desktop\\vs Code (Projects)\\Game With Xzi1Bi2t\\Money.json'
+token_path = "C:\\Users\\user\\Desktop\\vs Code (Projects)\\DiscordBot\\Discord_Token.json"
 
 with open(token_path, 'r') as f:
     config = json.load(f)
