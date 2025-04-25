@@ -17,35 +17,35 @@
 ---------------------------------------------------
 Basic Code:
 ---------------------------------------------------
-import discord
-from discord.ext import commands
-
-intents = discord.Intents.default()
-intents.members = True 
-intents.message_content = True
-bot = commands.Bot(command_prefix="!", intents=intents)
-TOKEN = 'Your Bot Token'
-
-@bot.event
-async def on_ready():
-    print(f'Logged in as {bot.user}')
-
-@bot.event
-async def on_member_join(member):
-    channel = discord.utils.get(member.guild.text_channels, name='general')
-    if channel:
-        await channel.send(f"Welcome {member.mention}!")
-
-@bot.command(name="say")
-async def say(ctx, *, message: str):
-    try:
-        await ctx.send(message)
-    except Exception as e:
-        print(f"Error: {e}")
-        await ctx.send("There was an error processing your message.")
-
-print(f"Bot Token ID: {TOKEN}")
-bot.run(TOKEN)
+import discord \n
+from discord.ext import commands \n
+\n
+intents = discord.Intents.default() \n
+intents.members = True \n
+intents.message_content = True \n
+bot = commands.Bot(command_prefix="!", intents=intents) \n
+TOKEN = 'Your Bot Token' \n
+\n
+@bot.event \n
+async def on_ready(): \n
+    print(f'Logged in as {bot.user}') \n
+\n
+@bot.event \n
+async def on_member_join(member):\n
+    channel = discord.utils.get(member.guild.text_channels, name='general')\n
+    if channel:\n
+        await channel.send(f"Welcome {member.mention}!")\n
+\n
+@bot.command(name="say")\n
+async def say(ctx, *, message: str):\n
+    try:\n
+        await ctx.send(message)\n
+    except Exception as e:\n
+        print(f"Error: {e}")\n
+        await ctx.send("There was an error processing your message.")\n
+\n
+print(f"Bot Token ID: {TOKEN}")\n
+bot.run(TOKEN)\n
 
 ---------------------------------------------------
 
