@@ -45,10 +45,10 @@ async def say(ctx, *, message: str):
         await ctx.send("There was an error processing your message.")
 
 print(f"Bot Token ID: {TOKEN}")
-bot.run(TOKEN)```
+bot.run(TOKEN)``````
 
 ---------------------------------------------------
-**Note if the code not working copy the code and past it in chat gpt to fix.
+**Note:** If the code doesn't work, copy and paste it into ChatGPT to help fix any errors.
 
 15) To get your bot token, go back to https://discord.com/developers/applications
 16) Click on your application
