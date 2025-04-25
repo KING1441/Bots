@@ -54,5 +54,5 @@ async def say(ctx, *, message: str):
 
 print(f"Bot Token ID: {TOKEN}")
 bot.run(TOKEN)
-
+```
 ---------------------------------------------------
