@@ -35,7 +35,7 @@ async def on_member_join(member):
     channel = discord.utils.get(member.guild.text_channels, name='general')
     if channel:
         await channel.send(f"Welcome {member.mention}!")
-\n
+
 @bot.command(name="say")\n
 async def say(ctx, *, message: str):
     try:
