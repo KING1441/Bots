@@ -80,4 +80,4 @@ async def leave(ctx):
     else:
         await ctx.send("❌ I'm not connected to a voice channel.")
 
-bot.run("MTMyNjUxMDkzMTAxODI1MjM2Mg.GPxfOe.XADwlwNzrHYBRCXzc9OiqWoLW2t4Q3mPErA_jE")
+bot.run("---")
