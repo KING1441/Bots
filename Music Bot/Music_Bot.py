@@ -16,6 +16,12 @@ GUILD_ID = discord.Object(id=1334196633445072918) #Change it to a server ID
 # first look for the path: click on ctrl + f, sartch vc.play change the path
 # ask chatgpt for help send him errors and the code
 
+token_path = "C:\\Users\\user\\Desktop\\vs Code (Projects)\\DiscordBot\\Discord_Token.json"
+
+with open(token_path, 'r') as f:
+    config = json.load(f)
+    TOKEN = config["Music_Bot_ID"]
+
 
 # Initialize bot and logging
 logging.basicConfig(level=logging.INFO)
@@ -279,6 +285,6 @@ async def stop_guessing(interaction: discord.Interaction):
 
 # Run the bot
 try:
-    client.run('MTMyNjUxMDkzMTAxODI1MjM2Mg.GPxfOe.XADwlwNzrHYBRCXzc9OiqWoLW2t4Q3mPErA_jE')
+    client.run(TOKEN)
 except Exception as e:
     logger.error(f"An error occurred while running the bot: {e}")
