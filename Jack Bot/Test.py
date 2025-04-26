@@ -8,7 +8,7 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-token_path = "C:\\Users\\talm\\Desktop\\vs Code (Projects)\\DiscordBot\\Discord_Token.json"
+token_path = "C:\\Users\\user\\Desktop\\vs Code (Projects)\\DiscordBot\\Discord_Token.json"
 
 with open(token_path, 'r') as f:
     config = json.load(f)
