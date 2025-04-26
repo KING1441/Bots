@@ -81,7 +81,7 @@ class MusicPlayer(commands.Cog):
         if vc.is_playing():
             vc.stop()
         
-        vc.play(discord.FFmpegPCMAudio(audio_file, executable="C:\\Users\\talm\\Desktop\\vs Code (Projects)\\Game With Xzi1Bi2t\\ffmpeg-7.1.1-full_build\\ffmpeg-7.1.1-full_build\\bin\\ffmpeg.exe"), after=lambda e: logger.info(f"Finished playing: {e}"))
+        vc.play(discord.FFmpegPCMAudio(audio_file, executable="C:\\Users\\user\\Desktop\\vs Code (Projects)\\Game With Xzi1Bi2t\\ffmpeg-7.1.1-full_build\\ffmpeg-7.1.1-full_build\\bin\\ffmpeg.exe"), after=lambda e: logger.info(f"Finished playing: {e}"))
         await interaction.followup.send(f"Now playing: {audio_file}")
 
     @app_commands.command(name="download", description="Download a song from YouTube")
@@ -94,7 +94,7 @@ class MusicPlayer(commands.Cog):
 
         options = {
     "format": "bestaudio/best",
-    "ffmpeg_location": "C:\\Users\\talm\\Desktop\\vs Code (Projects)\\Game With Xzi1Bi2t\\ffmpeg-7.1.1-full_build\\ffmpeg-7.1.1-full_build\\bin\\ffmpeg.exe",  # <-- Replace this!
+    "ffmpeg_location": "C:\\Users\\user\\Desktop\\vs Code (Projects)\\Game With Xzi1Bi2t\\ffmpeg-7.1.1-full_build\\ffmpeg-7.1.1-full_build\\bin\\ffmpeg.exe",  # <-- Replace this!
     "postprocessors": [
         {
             "key": "FFmpegExtractAudio",
